@@ -27,4 +27,9 @@ public class Palestras extends Eventos {
         this.Palestrante = Palestrante;
     }
 
+    @Override
+    public String toString() {
+        return "Palestras{" + "Palestrante=" + Palestrante + '}';
+    }
+
 }

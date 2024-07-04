@@ -15,6 +15,14 @@ public class GrandesEventos {
     private ArrayList<Eventos> Eventos;
     private float TaxaInscricao;
 
+    private void RegistroGrandeEvento() {
+        System.out.println("RegistroGrandeEvento");
+    }
+
+    private void ListagemGrandesEventos() {
+        System.out.println("ListagemGrandesEventos");
+    }
+
     public GrandesEventos(ArrayList<Eventos> Eventos, float TaxaInscricao) {
         this.Eventos = Eventos;
         this.TaxaInscricao = TaxaInscricao;
@@ -34,6 +42,11 @@ public class GrandesEventos {
 
     public void setTaxaInscricao(float TaxaInscricao) {
         this.TaxaInscricao = TaxaInscricao;
+    }
+
+    @Override
+    public String toString() {
+        return "GrandesEventos{" + "Eventos=" + Eventos + ", TaxaInscricao=" + TaxaInscricao + '}';
     }
 
 }

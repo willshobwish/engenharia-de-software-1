@@ -19,6 +19,60 @@ public class Eventos {
     private int QuantidadeVagas;
     private float TaxaInscricao;
 
+    private void CursosDisponiveis() {
+        System.out.println("CursosDisponiveis");
+    }
+
+    private void VerificacaoConflitoHorario() {
+        System.out.println("VerificacaoConflitoHorario");
+
+    }
+
+    private void RegistrarCurso() {
+        System.out.println("RegistrarCurso");
+
+    }
+
+    private void AcessoEventos() {
+        System.out.println("AcessoEventos");
+
+    }
+
+    private void ListagemTodosCursosValidos() {
+        System.out.println("ListagemTodosCursosValidos");
+
+    }
+
+    private void ListagemTodasPalestrasValidas() {
+        System.out.println("ListagemTodasPalestrasValidas");
+
+    }
+
+    private void EventosParticipados() {
+        System.out.println("EventosParticipados");
+
+    }
+
+    private void EventosMinistrados() {
+        System.out.println("EventosMinistrados");
+
+    }
+
+    private void ReduzirQuantidadeVagas() {
+        System.out.println("ReduzirQuantidadeVagas");
+
+    }
+
+    private void RegistroPalestra() {
+        System.out.println("RegistroPalestra");
+
+    }
+
+    private void IncrementarQuantidadeVagas() {
+        System.out.println("IncrementarQuantidadeVagas");
+
+    }
+
     public Eventos(Date Data, Date Hora, int CargaHoraria, int Partes, int QuantidadeVagas, float TaxaInscricao) {
         this.Data = Data;
         this.Hora = Hora;
@@ -74,6 +128,11 @@ public class Eventos {
 
     public void setTaxaInscricao(float TaxaInscricao) {
         this.TaxaInscricao = TaxaInscricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Eventos{" + "Data=" + Data + ", Hora=" + Hora + ", CargaHoraria=" + CargaHoraria + ", Partes=" + Partes + ", QuantidadeVagas=" + QuantidadeVagas + ", TaxaInscricao=" + TaxaInscricao + '}';
     }
 
 }

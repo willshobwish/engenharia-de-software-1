@@ -18,6 +18,25 @@ public class Usuarios {
     private boolean palestrante;
     private boolean moderador;
 
+    private void RegistroCadastroUsuario() {
+        System.out.println("RegistroCadastroUsuario");
+    }
+
+    private void BuscaUsuario() {
+        System.out.println("BuscaUsuario");
+
+    }
+
+    private void RegistroInscricaoEvento() {
+        System.out.println("RegistroInscricaoEvento");
+
+    }
+
+    private void BuscarGrandesEventosUsuario() {
+        System.out.println("BuscarGrandesEventosUsuario");
+
+    }
+
     public Usuarios(String email, String nome, String vinculoUniversidade, boolean usuario, boolean ministrante, boolean palestrante, boolean moderador) {
         this.email = email;
         this.nome = nome;
@@ -82,6 +101,11 @@ public class Usuarios {
 
     public void setModerador(boolean moderador) {
         this.moderador = moderador;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuarios{" + "email=" + email + ", nome=" + nome + ", vinculoUniversidade=" + vinculoUniversidade + ", usuario=" + usuario + ", ministrante=" + ministrante + ", palestrante=" + palestrante + ", moderador=" + moderador + '}';
     }
 
 }
