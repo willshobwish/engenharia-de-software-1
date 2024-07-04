@@ -17,11 +17,7 @@ public class Sistema {
     private ArrayList<GrandesEventos> GrandesEventos;
     private static Sistema Sistema;
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
     }
 
     private void CadastroCurso() {
