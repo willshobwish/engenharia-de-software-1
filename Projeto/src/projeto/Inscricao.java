@@ -17,47 +17,47 @@ public class Inscricao {
     private Eventos[] EventoInscrito;
 
     private void InscricoesUsuario() {
-        System.out.println("InscricoesUsuario");
+        System.out.println("Inscricoes Usuario");
     }
 
     private void RegistroInscricao() {
-        System.out.println("RegistroInscricao");
+        System.out.println("Registro Inscricao");
     }
 
     private void BuscarTodasGrandesEventos() {
-        System.out.println("BuscarTodasGrandesEventos");
+        System.out.println("Buscar Todas Grandes Eventos");
     }
 
     private void CancelarIsncricaoGrandeEvento() {
-        System.out.println("CancelarIsncricaoGrandeEvento");
+        System.out.println("Cancelar Isncricao Grande Evento");
     }
 
     private void InscricoesEventos() {
-        System.out.println("InscricoesEventos");
+        System.out.println("Inscricoes Eventos");
     }
 
     private void CancelarInscricaoEvento() {
-        System.out.println("CancelarInscricaoEvento");
+        System.out.println("Cancelar Inscricao Evento");
     }
 
     private void SelecaoPresencaEventoUsuarios() {
-        System.out.println("SelecaoPresencaEventoUsuarios");
+        System.out.println("Selecao Presenca Evento Usuarios");
     }
 
     private void RegistrarPresencasUsuarios() {
-        System.out.println("RegistrarPresencasUsuarios");
+        System.out.println("Registrar Presencas Usuarios");
     }
 
     private void RegistrarPresencaInscricao() {
-        System.out.println("RegistrarPresencaInscricao");
+        System.out.println("Registrar Presenca Inscricao");
     }
 
     private void CertificadoEventoDisponivel() {
-        System.out.println("CertificadoEventoDisponivel");
+        System.out.println("Certificado Evento Disponivel");
     }
 
     private void ChecagemPresenca() {
-        System.out.println("ChecagemPresenca");
+        System.out.println("Checagem Presenca");
     }
 
     public Inscricao(boolean[] Presenca, boolean PagamentoTaxa, Eventos[] EventoInscrito) {

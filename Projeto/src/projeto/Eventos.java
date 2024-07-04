@@ -20,56 +20,56 @@ public class Eventos {
     private float TaxaInscricao;
 
     private void CursosDisponiveis() {
-        System.out.println("CursosDisponiveis");
+        System.out.println("Cursos Disponiveis");
     }
 
     private void VerificacaoConflitoHorario() {
-        System.out.println("VerificacaoConflitoHorario");
+        System.out.println("Verificacao Conflito Horario");
 
     }
 
     private void RegistrarCurso() {
-        System.out.println("RegistrarCurso");
+        System.out.println("Registrar Curso");
 
     }
 
     private void AcessoEventos() {
-        System.out.println("AcessoEventos");
+        System.out.println("Acesso Eventos");
 
     }
 
     private void ListagemTodosCursosValidos() {
-        System.out.println("ListagemTodosCursosValidos");
+        System.out.println("Listagem Todos Cursos Validos");
 
     }
 
     private void ListagemTodasPalestrasValidas() {
-        System.out.println("ListagemTodasPalestrasValidas");
+        System.out.println("Listagem Todas Palestras Validas");
 
     }
 
     private void EventosParticipados() {
-        System.out.println("EventosParticipados");
+        System.out.println("Eventos Participados");
 
     }
 
     private void EventosMinistrados() {
-        System.out.println("EventosMinistrados");
+        System.out.println("Eventos Ministrados");
 
     }
 
     private void ReduzirQuantidadeVagas() {
-        System.out.println("ReduzirQuantidadeVagas");
+        System.out.println("Reduzir Quantidade Vagas");
 
     }
 
     private void RegistroPalestra() {
-        System.out.println("RegistroPalestra");
+        System.out.println("Registro Palestra");
 
     }
 
     private void IncrementarQuantidadeVagas() {
-        System.out.println("IncrementarQuantidadeVagas");
+        System.out.println("Incrementar Quantidade Vagas");
 
     }
 

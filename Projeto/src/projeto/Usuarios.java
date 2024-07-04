@@ -19,21 +19,21 @@ public class Usuarios {
     private boolean moderador;
 
     private void RegistroCadastroUsuario() {
-        System.out.println("RegistroCadastroUsuario");
+        System.out.println("Registro Cadastro Usuario");
     }
 
     private void BuscaUsuario() {
-        System.out.println("BuscaUsuario");
+        System.out.println("Busca Usuario");
 
     }
 
     private void RegistroInscricaoEvento() {
-        System.out.println("RegistroInscricaoEvento");
+        System.out.println("Registro Inscricao Evento");
 
     }
 
     private void BuscarGrandesEventosUsuario() {
-        System.out.println("BuscarGrandesEventosUsuario");
+        System.out.println("Buscar Grandes Eventos Usuario");
 
     }
 

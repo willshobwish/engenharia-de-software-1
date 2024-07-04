@@ -16,11 +16,11 @@ public class GrandesEventos {
     private float TaxaInscricao;
 
     private void RegistroGrandeEvento() {
-        System.out.println("RegistroGrandeEvento");
+        System.out.println("Registro Grande Evento");
     }
 
     private void ListagemGrandesEventos() {
-        System.out.println("ListagemGrandesEventos");
+        System.out.println("Listagem Grandes Eventos");
     }
 
     public GrandesEventos(ArrayList<Eventos> Eventos, float TaxaInscricao) {
